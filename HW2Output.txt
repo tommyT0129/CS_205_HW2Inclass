@@ -1,0 +1,57 @@
+Line 3 discarded - invalid string: ""
+Line 4 discarded - invalid string: "b,,"
+Line 5 discarded - invalid type of vehicle: "d,FUELOIL,100"
+Line 7 discarded - not a whole number: "b,FUELOIL, 25"
+Line 10 discarded - invalid string: "b,FUELOIL,300 c,GASOLINE,9"
+Line 11 discarded - invalid atribute: "c,GASOLINE,-98"
+Engine size must be between 1 and 199: -98
+edu.monmouth.vehicle.CarException: Engine size must be between 1 and 199: -98
+	at VehicleAssignment/edu.monmouth.vehicle.Car.setEngineSize(Car.java:18)
+	at VehicleAssignment/edu.monmouth.vehicle.Car.<init>(Car.java:9)
+	at VehicleAssignment/edu.monmouth.hw2.HW2.main(HW2.java:54)
+Line 12 discarded - not a whole number: "c,GASOLINE,20o"
+Line 13 discarded - invalid string: "c,GASOLINE"
+Line 14 discarded - invalid atribute: "b,FUELOIL,81902"
+Boat length must be between 1 and 1300: 81902
+edu.monmouth.vehicle.BoatException: Boat length must be between 1 and 1300: 81902
+	at VehicleAssignment/edu.monmouth.vehicle.Boat.setBoatLength(Boat.java:22)
+	at VehicleAssignment/edu.monmouth.vehicle.Boat.<init>(Boat.java:13)
+	at VehicleAssignment/edu.monmouth.hw2.HW2.main(HW2.java:59)
+  [0] Monmouth University
+  [1] Boardwalk
+  [2] West Long Branch
+  [3] Great Hall
+  [4] 1933
+  [5] Seven Presidents
+  [6] New Jersey
+Empty String list: false
+  [0] Test String
+  [0] Car [engineSize=4, powerSource=GASOLINE]
+  [1] Boat [boatLength=100, powerSource=GASOLINE]
+  [2] Car [engineSize=6, powerSource=FUELOIL]
+  [3] Car [engineSize=6, powerSource=DEISEL]
+  [4] Boat [boatLength=300, powerSource=ELECTRICITY]
+  [5] Car [engineSize=10, powerSource=ELECTRICITY]
+  [6] Car [engineSize=9, powerSource=FUELOIL]
+  [7] Boat [boatLength=42, powerSource=ELECTRICITY]
+  [8] Car [engineSize=4, powerSource=GASOLINE]
+Empty Vehicle list: false
+  [0] Plane [numSeat=2, powerSource=FUELOIL]
+contains(Plane [numSeat=2, powerSource=FUELOIL]) -> true
+contains(Boat [boatLength=100, powerSource=GASOLINE]) -> false
+  [0] Plane [numSeat=2, powerSource=FUELOIL]
+Number of elements in string list: 1
+Number of elements in vehicle list: 1
+
+  [0] Test String
+
+  [0] Plane [numSeat=2, powerSource=FUELOIL]
+
+  [0] Test String
+
+  [0] Plane [numSeat=2, powerSource=FUELOIL]
+
+  [0] Plane [numSeat=2, powerSource=FUELOIL]
+  [1] Plane [numSeat=100, powerSource=FUELOIL]
+
+  [0] Plane [numSeat=100, powerSource=FUELOIL]
